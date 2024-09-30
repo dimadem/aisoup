@@ -1,0 +1,23 @@
+A new update to Google’s video-to-audio technology will allow users to apply AI-generated scores, sound effects and dialogue to video clips.
+
+According to a blog post from the tech giant, the technology “combines video pixels with natural language text prompts to generate rich soundscapes for the on-screen action.”
+
+Google adds that the update is a "major step towards bringing generated movies to life."
+
+Read this next: New music search engine cosine.club suggests tracks based on similarity
+
+DeepMind, Google’s AI research lab has said that the technology can “understand raw pixels” alone, therefore text prompts are not strictly necessary — they do however help with the software’s accuracy.
+
+The technology also features enhanced creative control, where, “V2A can generate an unlimited number of soundtracks for any video input."
+
+"Optionally, a ‘positive prompt’ can be defined to guide the generated output toward desired sounds, or a ‘negative prompt’ to guide it away from undesired sounds,” a spokesperson for Google has said.
+
+The update is yet to be released to the public, with the statement adding: “Still, there are a number of other limitations we’re trying to address and further research is underway.”
+
+“Since the quality of the audio output is dependent on the quality of the video input, artefacts or distortions in the video, which are outside the model’s training distribution, can lead to a noticeable drop in audio quality.”
+
+Read this next: The rise of AI music: A force for good or a new low for artistic creativity?
+
+Check out some example clips of the technology in action below.
+
+Jamaal Johnson is Mixmag's Digital Intern

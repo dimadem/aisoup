@@ -1,0 +1,11 @@
+ipykernel
+python-dotenv
+matplotlib
+umap-learn
+pandas
+tracely
+anthropic
+pdf2image
+chromadb
+sentence_transformers
+open-clip-torch
