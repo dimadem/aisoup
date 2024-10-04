@@ -5,16 +5,25 @@ Welcome!
 
 In this course, we will cover the main technologies for interacting with AI tools.
 
+---
+
+The course can be run on Windows, Linux, and Mac.
+
+To initialize the project:
+- Ensure you have Python installed (version 3.12 or later)
+- Make sure Bash is installed on your system.
+
+Run the setup script:
+- ./setup.sh
+
+---
 
 Tools Used:
 - Anthropic API
 - ChromaDB
 - Evidently
 
-To initialize the project:
-- Run ./setup.sh
-- Place the API key in the .env file
-- Open the project in the course folder
+---
 
 Things to do:
 1. Text

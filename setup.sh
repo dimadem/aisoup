@@ -34,11 +34,26 @@ else
     python -m venv .venv && echo -e "${GREEN}✅ .venv${NC}"
 fi
 
+# Determine the OS and activate the virtual environment accordingly
+echo -e "${GRAY}Activating the virtual environment${NC}"
+
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+    . .venv/bin/activate && echo -e "${GREEN}✅ .venv/bin/activate${NC}"
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+    . .venv/bin/activate && echo -e "${GREEN}✅ .venv/bin/activate${NC}"
+elif [[ "$OSTYPE" == "cygwin" ]]; then
+    . .venv/Scripts/activate && echo -e "${GREEN}✅ .venv/Scripts/activate${NC}"
+elif [[ "$OSTYPE" == "msys" ]]; then
+    . .venv/Scripts/activate && echo -e "${GREEN}✅ .venv/Scripts/activate${NC}"
+elif [[ "$OSTYPE" == "win32" ]]; then
+    . .venv/Scripts/activate && echo -e "${GREEN}✅ .venv/Scripts/activate${NC}"
+else
+    echo -e "${RED}❗️ Unsupported OS${NC}"
+    exit 1
+fi
 
 # Install the required packages
 echo -e "${GRAY}Installing the required packages${NC}"
-
-source .venv/bin/activate && echo -e "${GREEN}✅ .venv/bin/activate${NC}"
 pip install -r requirements.txt && echo -e "${GREEN}✅ requirements.txt${NC}"
 
 
