@@ -19,9 +19,9 @@ Run the setup script:
 ---
 
 Tools Used:
-- Anthropic API
-- ChromaDB
-- Evidently
+- [Anthropic API](https://console.anthropic.com/dashboard)
+- [ChromaDB](https://docs.trychroma.com/)
+- [Evidently](https://docs.evidentlyai.com/)
 
 ---
 
